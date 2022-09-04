@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio Ivan Polanco</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    
+    
+</head>
+<body>
+    <!--Mi Inicio-->
+    <section id="inicio">
+        <div class="contenido">
+            <!--Mi Header-->
+            <header>
+                <div class="contenido-header">
+                    <h1>Ivan Polanco</h1>
+                    <!--Mi Nav-->
+                    <nav id="nav">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado">INICIO</a></li>
+                            <li><a href="#sobremi">SOBRE MI</a></li>
+                            <li><a href="#experiencias">EXPERINECIAS</a></li>
+                            <li><a href="#portafolio">PORTAFOLIO</a></li>
+                            <li><a href="#contacto">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!--Los Iconos para el responsive-->
+                    <div class="icono-nav">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <!--Iconos de mis redes sociales-->
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenido">Bienvenidos</p>
+                <h2>Soy <span>Ivan Polanco</span>, Ingeniero En Software</h2>
+                <p class="descripcion">Soy un ingeniero en software que tiene los conocimiento
+                    tanto front-end y back-end web, entre otros conocimientos
+                    mas. Para poder llegar en un futuro a desarrollador Full-Stack web React</p>
+                <a href="#portafolio">Ir a mi Portafolio</a>    
+            </div>
+        </div>
+    </section>
+
+    <!--Sobre MI-->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="/imagenes/imagen-perfil.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, yo soy <span>Ivan Polanco</span></h2>
+            <h3>Ingeneriero en Software</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Est, non quos officia mollitia sequi nam atque ipsa dolor accusamus labore explicabo, 
+                nostrum eos, autem libero animi repudiandae doloribus ad quae.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#">Descargar CV (Mantenimiento)</a>
+        </div>
+    </section>
+
+    <!--Experinecias-->
+    <section id="experiencias">
+        <h3 class="titulo-seccion">MIS EXPERIENCIAS</h3>
+        <div class="fila">
+            <div class="experiencia">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Programador web y Preparaciones de Reportes.</h4>
+                <hr>
+                <ul class="experiencia-tag">
+                    <li>C#</li>
+                    <li>JQuery</li>
+                    <li>Tyscript</li>
+                </ul>
+                <p>Creación, automatización de reportes con reporting Services y Actualizaciones de la página de la empresa.</p>
+            </div>
+
+            <div class="experiencia">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Programador en base de datos.</h4>
+                <hr>
+                <ul class="experiencia-tag">
+                    <li>SQL SERVER</li>
+                    <li>Power Bi</li>
+                </ul>
+                <p>Automatice y facilita los informes de la empresacon SQL Server y Power Bi.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Mis Habilidades-->
+    <div class="contendor-skills" id="skills">
+        <h3>MIS HABILIDADES</h3>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>HTML</p>
+                <span class="porcentaje">87%</span>
+            </div>
+            <div class="barra">
+                <div id="html" class="barra-progreso1"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>CSS</p>
+                <span class="porcentaje">84%</span>
+            </div>
+            <div class="barra">
+                <div id="CSS" class="barra-progreso2"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Javascript</p>
+                <span class="porcentaje">90%</span>
+            </div>
+            <div class="barra">
+                <div id="javascript" class="barra-progreso3"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>SQL SERVER</p>
+                <span class="porcentaje">80%</span>
+            </div>
+            <div class="barra">
+                <div id="sqls" class="barra-progreso4"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--Mi portafolio-->
+    <section id="portafolio">
+        <h3 class="titulo-seccion">
+            <div class="fila">
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <a href="https://primerecommersdefinitivo.netlify.app/" target="_blank"><img src="/imagenes/Ecommers.JPG" alt="">
+                    <div class="info">
+                        <h4>Ecommers de Audifonos</h4>
+                        <p>Academlo</p>
+                    </div>
+                    </a>
+                </div>
+
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <a href="https://primerblogdeivanacademlo.netlify.app/" target="_blank"><img src="/imagenes/Primer-Blog-academlo.JPG" alt="">
+                    <div class="info">
+                        <h4>Primer Blog de Academlo</h4>
+                        <p>Academlo</p>
+                    </div>
+                    </a>
+                </div>
+
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <a href="https://fronten-mentor-nft-ivan-polanco.netlify.app/" target="_blank"><img src="/imagenes/Challenge front-end mentor nft.JPG" alt="">
+                    <div class="info">
+                        <h4>NFT Frontend Mentor</h4>
+                        <p>Challenge</p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </h3>
+    </section>
+    
+    <!--Mi JS-->
+    <script src="/js/main.js"></script>
+</body>
+</html>
